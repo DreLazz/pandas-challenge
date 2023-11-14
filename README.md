@@ -39,3 +39,8 @@
 # Jupyter Notebook
 # Groupby
 # pd.cut
+
+# Notes
+# students_passing_reading = school_data_complete[(school_data_complete["reading_score"] >= 70)]
+# school_students_passing_reading = students_passing_reading.groupby(["school_name"]).size()
+# These two lines of code were given to me to help fix an error I had. I received help from sdludla on AskBCS Learning Assistants
